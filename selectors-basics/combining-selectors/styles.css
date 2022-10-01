@@ -1,8 +1,8 @@
-.super-important.higlighted {
+.super-important.highlighted {
     background-color: red;
 }
 
-.higlighted.company-data {
+.highlighted, .company-data {
     color: yellow;
 }
 
