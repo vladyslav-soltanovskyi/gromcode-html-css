@@ -26,7 +26,7 @@ input {
     background-color: white;
 }
 
-.special {
+#special {
     border: 2px solid blue;
 }
 
