@@ -1,0 +1,25 @@
+body {
+    margin: 50px;
+}
+
+div {
+    padding: 50px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.rose {
+    background-color: #ffc0cb;
+}
