@@ -1,0 +1,58 @@
+.header {
+  height: 40px;
+  background-color: yellow;
+}
+
+.nav-list {
+  display: flex;
+  line-height: 40px;
+  margin: 0;
+}
+
+.nav-item {
+  list-style: none;
+  margin-left: 16px;
+}
+
+.main {
+  height: calc(100vh - 80px);
+  display: flex;
+}
+
+.content {
+  background-color: pink;
+  width: calc(100% - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  background-color: gray;
+  width: 200px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin: 16px;
+}
+
+.news-list {
+  padding: 0;
+}
+
+.news-list li {
+  list-style: none;
+  line-height: 40px;
+  margin-left: 16px;
+}
+
+.footer {
+  height: 40px;
+  display: flex;
+  background-color: green;
+}
+
+.footer_text {
+  margin: auto;
+}
