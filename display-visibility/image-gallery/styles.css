@@ -1,0 +1,14 @@
+body {
+  overflow: hidden;
+}
+
+.gallery {
+  display: flex;
+  cursor: all-scroll;
+  overflow-y: auto;
+}
+
+.thumb {
+  margin: 8px;
+}
+
