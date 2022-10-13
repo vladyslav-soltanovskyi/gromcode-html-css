@@ -4,6 +4,7 @@
 }
 
 .image {
+  box-sizing: border-box;
   width: 200px;
   height: 200px;
   background-size: contain;
