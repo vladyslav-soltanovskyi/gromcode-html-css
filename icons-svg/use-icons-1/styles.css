@@ -18,7 +18,8 @@
 .custom-button svg {
   width: 32px;
   height: 32px;
-  color: white;
+  fill: white;
+  vertical-align: middle;
 }
 
 .custom-button:hover {
@@ -26,5 +27,5 @@
 }
 
 .custom-button:hover svg {
-  color: green;
+  fill: green;
 }
