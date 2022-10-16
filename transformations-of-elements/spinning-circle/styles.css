@@ -11,7 +11,7 @@
   width: 50px;
   border: 4px solid lightgrey;
   border-top-color: black;
-  margin: 0 auto 8px;
+  margin: 1px auto 8px;
   border-radius: 50%;
   box-sizing: border-box;
   animation: spin 2s infinite ease-out;
