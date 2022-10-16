@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.gallery {
+  width: 80%;
+  background-color: #fa5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+  box-sizing: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.ideas {
+  width: 20%;
+  background-color: #5af;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.idea {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
