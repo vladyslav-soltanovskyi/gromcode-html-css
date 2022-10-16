@@ -38,11 +38,14 @@ html {
   background-color: #808080;
   color: white;
   height: 2em;
-  margin: 0.5em 0;
   padding: 0.5em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-bottom: 0.5em;
 }
 
 .nav-list-link {
