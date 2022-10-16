@@ -14,7 +14,7 @@
   margin: 0 auto 8px;
   border-radius: 50%;
   box-sizing: border-box;
-  animation: spin 2s infinite ease-in;
+  animation: spin 2s infinite ease-out;
 }
 
 .spinner-text {
