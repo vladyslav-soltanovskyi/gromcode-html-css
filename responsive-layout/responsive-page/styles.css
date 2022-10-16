@@ -73,6 +73,7 @@ body {
   background-color: #808080;
   line-height: 2em;
   color: white;
+  padding: 0 0.5em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -84,7 +85,6 @@ body {
 
 .nav-list-link {
   text-decoration: none;
-  padding: 0 0.5em;
   color: white;
   width: 100%;
 }
