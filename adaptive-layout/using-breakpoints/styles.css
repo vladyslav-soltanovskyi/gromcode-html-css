@@ -1,0 +1,44 @@
+.navigation {
+  background-color: #ff7f50;
+}
+
+.section {
+  background-color: #006400;
+}
+
+.news {
+  background-color: #0ff;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  height: 200px;
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: Verdana;
+  text-transform: lowercase;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 899px) {
+  .block {
+    flex: 1 1 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .block {
+    flex: 1 1 100%;
+  }
+}
