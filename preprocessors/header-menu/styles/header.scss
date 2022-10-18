@@ -3,12 +3,18 @@
   background-color: #006400;
   color: white;
 
+  nav {
+    height: inherit;
+  }
+
   .menu {
     margin: 0 0 0 3em;
     padding: 0;
+    height: inherit;
     text-transform: uppercase;
     list-style: none;
     display: flex;
+    align-items: center;
 
     &__item {
       padding: 8px;

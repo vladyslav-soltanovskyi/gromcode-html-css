@@ -3,12 +3,17 @@
   background-color: #006400;
   color: white;
 }
+.header nav {
+  height: inherit;
+}
 .header .menu {
   margin: 0 0 0 3em;
   padding: 0;
+  height: inherit;
   text-transform: uppercase;
   list-style: none;
   display: flex;
+  align-items: center;
 }
 .header .menu__item {
   padding: 8px;
