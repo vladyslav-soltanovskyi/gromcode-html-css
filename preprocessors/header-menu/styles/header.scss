@@ -14,9 +14,12 @@
     text-transform: uppercase;
     list-style: none;
     display: flex;
-    align-items: center;
 
     &__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: inherit;
       padding: 8px;
       cursor: pointer;
       position: relative;
